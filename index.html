@@ -5,34 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>PassWord</title>
 </head>
 
 <body>
     <div class="container">
-        <input type="text  " class="password" value="">
-        <input type="number" id="totalchar" value="">
-        <div class="number">
-            <label for="number">Add Number
-                <input type="checkbox" id="number">
-            </label>
+
+        <input type="text" class="password one" placeholder="PassWord" value="">
+        <label for="totalchar" id="howlong">How Long PassWord You Want</label>
+        <input type="number" id="totalchar" class="one" value="">
+        <div class="values">
+
+            <div class="number">
+                <label for="number">Add Number
+                    <input type="checkbox" id="number">
+                </label>
+            </div>
+            <div class="symbol">
+                <label for="symbol">Add symbol
+                    <input type="checkbox" id="symbol">
+                </label>
+            </div>
+            <div class="Uppercase">
+                <label for="Uppercase">Add Uppercase
+                    <input type="checkbox" id="Uppercase">
+                </label>
+            </div>
+            <div class="lowerCase">
+                <label for="lowerCase">Add lowerCase
+                    <input type="checkbox" id="lowerCase">
+                </label>
+            </div>
         </div>
-        <div class="symbol">
-            <label for="symbol">Add symbol
-                <input type="checkbox" id="symbol">
-            </label>
-        </div>
-        <div class="Uppercase">
-            <label for="Uppercase">Add Uppercase
-                <input type="checkbox" id="Uppercase">
-            </label>
-        </div>
-        <div class="lowerCase">
-            <label for="lowerCase">Add lowerCase
-                <input type="checkbox" id="lowerCase">
-            </label>
-        </div>
-        <button class="btn">click me</button>
+        <button class="btn">PassWord</button>
     </div>
     <script src="logic.js"></script>
 </body>

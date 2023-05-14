@@ -34,7 +34,6 @@ function whatToAdd(store = "") {
     store.substring(0, totalchar.value);
   }
   password.value = store;
-  console.log(totalchar.value);
 }
 btn.addEventListener("click", function () {
   whatToAdd();
